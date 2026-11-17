@@ -1,0 +1,17 @@
+{
+  "name": "developer-key-scope-audit",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/key_scope_audit.ts",
+    "test": "node --experimental-strip-types src/key_scope_audit.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  }
+}
